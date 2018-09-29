@@ -1,0 +1,133 @@
+
+\usetheme[light,darktitle,framenumber,totalframenumber]{UniversiteitAntwerpen}
+
+\usepackage{tabulary}
+\usepackage{changepage}
+\usepackage{tikz}
+\usepackage{booktabs}
+\usepackage{listings}
+\usepackage{lstlinebgrd}
+\usepackage{tcolorbox}
+\usepackage{ifthen}
+\usepackage[absolute,overlay]{textpos}
+\usepackage{enumitem}
+
+
+% Reset itemize stuff after enumitem
+\setitemize{label=\usebeamerfont*{itemize item}%
+\usebeamercolor[fg]{itemize item}
+\usebeamertemplate{itemize item}}
+
+
+\usetikzlibrary{calc}
+
+
+\usepackage[style=authortitle,backend=bibtex]{biblatex}
+\addbibresource{bibfile.bib}
+
+\usepackage{listings}
+\lstset{
+	tabsize=4,
+	gobble=12,
+	escapechar=!
+}
+\fboxsep1pt
+
+\addbibresource{bibfile.bib}
+
+% No navigation symbols
+\beamertemplatenavigationsymbolsempty
+
+% add space between footer and footnotes
+\addtobeamertemplate{footline}{
+\raisebox{0.5cm}{
+}
+}{
+}
+
+%\AtBeginSection[]{
+%\begin{frame}
+%%	\frametitle{\insertsection}
+%	\frametitle{Outline}
+%	\tableofcontents[currentsection]
+%\end{frame}
+%}
+
+\newcommand{\includegraphicsframe}[1]{
+		\bgroup
+		\usebackgroundtemplate{\includegraphics[keepaspectratio, width=\paperwidth, height=\paperheight]{#1}}%
+		\begin{frame}[plain, noframenumbering]
+		\end{frame}
+		\egroup
+}
+
+\newcommand{\tikzmark}[1]{\tikz[overlay,remember picture] \node (#1) {};}
+\newcommand{\DrawBox}[3][]{%
+	\tikz[overlay,remember picture]{
+		\draw[black, #1]
+		($(#2)+(-0.5em,2.0ex)$) rectangle
+		($(#3)+(0.75em,-0.75ex)$);}
+}
+
+\newcommand<>{\highlight}[1]{\textcolor#2{uared}{\textbf{#1}}}
+\newcommand{\raisecenter}[1]{\raisebox{-0.5\height}{#1}}
+
+\newcommand{\todo}[1]{
+	\par 
+	\fcolorbox{red}{white}{
+		\textcolor{red}{TODO: #1} %\marginpar{#1}
+	}
+	\par
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  listings highlighting (https://tex.stackexchange.com/a/85628)	%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\makeatletter
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% \btIfInRange{number}{range list}{TRUE}{FALSE}
+%
+% Test in int number <number> is element of a (comma separated) list of ranges
+% (such as: {1,3-5,7,10-12,14}) and processes <TRUE> or <FALSE> respectively
+
+\newcount\bt@rangea
+\newcount\bt@rangeb
+
+\newcommand\btIfInRange[2]{%
+	\global\let\bt@inrange\@secondoftwo%
+	\edef\bt@rangelist{#2}%
+	\foreach \range in \bt@rangelist {%
+		\afterassignment\bt@getrangeb%
+		\bt@rangea=0\range\relax%
+		\pgfmathtruncatemacro\result{ ( #1 >= \bt@rangea) && (#1 <= \bt@rangeb) }%
+		\ifnum\result=1\relax%
+		\breakforeach%
+		\global\let\bt@inrange\@firstoftwo%
+		\fi%
+	}%
+	\bt@inrange%
+}
+\newcommand\bt@getrangeb{%
+	\@ifnextchar\relax%
+	{\bt@rangeb=\bt@rangea}%
+	{\@getrangeb}%
+}
+\def\@getrangeb-#1\relax{%
+	\ifx\relax#1\relax%
+	\bt@rangeb=100000%   \maxdimen is too large for pgfmath
+	\else%
+	\bt@rangeb=#1\relax%
+	\fi%
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% \btLstHL<overlay spec>{range list}
+%
+% 
+\newcommand<>{\btLstHL}[1]{%
+	\only#2{\btIfInRange{\value{lstnumber}}{#1}{\color{orange!30}\def\lst@linebgrdcmd{\color@block}}{\def\lst@linebgrdcmd####1####2####3{}}}%
+}%
+\makeatother
+
