@@ -1,6 +1,9 @@
 ## Skills
 
-We list all skills we think are helpful for the master in computer science program.
+We list all skills we think are helpful for the master in computer science program. The general skills will come in handy sooner or later. Course specific skills are less essential, but definitely useful for the listed courses.
+
+Please keep in mind that this list was composed by students and it is in no way complete or binding. If you have suggestions for improvements, please let us know by sending an email to: <a href="mailto:joey.depauw@student.uantwerpen.be">joey.depauw@student.uantwerpen.be</a>.
+
 
 ### General Skills
 __________________
@@ -30,24 +33,14 @@ Short explanation.
  - <b>Computernetworks and Distributed Systems</b>
    - /  
 
-</br>
-
 #### Statistics
-Short explanation.
-<details>
-<summary>Courses:</summary>
-<b>Software Engineering</b>
-<ul>
-  <li></li>
-</ul>
-<b>Data Science</b>
-<ul>
-  <li></li>
-</ul>
-<b>Computernetworks and Distributed Systems</b>
-<ul>
-  <li></li>
-</ul>
-</details>
+Short explanation.  
 
-</br>
+- <b>Software Engineering</b>
+  - /
+
+- <b>Data Science</b>
+  - /  
+
+- <b>Computernetworks and Distributed Systems</b>
+  - /  
