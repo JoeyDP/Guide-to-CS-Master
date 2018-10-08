@@ -9,14 +9,37 @@ We list all skills we think are helpful for the master in computer science progr
 
 ### General Skills
 
+#### Object Oriented Programming (OOP)
+Short explanation.
+
 <details>
-<summary><h4>Object Oriented Programming (OOP)</h4></summary>
-Courses:
+<summary>Courses:</summary>
 <ul>
-<li> Test</li>
-<li> 123</li>
+  <li> Test</li>
+  <li> 123</li>
 </ul>
 </details>
 
+#### Python
+Short explanation.
+
+<details>
+<summary>Courses:</summary>
+<ul>
+  <li> Test</li>
+  <li> 123</li>
+</ul>
+</details>
 
 ### Course Specific skills
+
+#### Regular expressions (Regex)
+Short explanation.
+
+<details>
+<summary>Courses:</summary>
+<ul>
+  <li> Test</li>
+  <li> 123</li>
+</ul>
+</details>
