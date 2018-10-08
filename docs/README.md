@@ -1,4 +1,3 @@
-# Guide to CS (Master)
 
 Description
 
@@ -12,24 +11,11 @@ We list all skills we think are helpful for the master in computer science progr
 #### Object Oriented Programming (OOP)
 Short explanation.
 
-<details>
-<summary>Courses:</summary>
-<ul>
-  <li> Test</li>
-  <li> 123</li>
-</ul>
-</details>
 
 #### Python
 Short explanation.
 
-<details>
-<summary>Courses:</summary>
-<ul>
-  <li> Test</li>
-  <li> 123</li>
-</ul>
-</details>
+
 
 ### Course Specific skills
 
@@ -38,8 +24,36 @@ Short explanation.
 
 <details>
 <summary>Courses:</summary>
+<b>Software Engineering</b>
 <ul>
-  <li> Test</li>
-  <li> 123</li>
+  <li>MoSIS - Modelling of Software Intensive Systems</li>
+</ul>
+<b>Data Science</b>
+<ul>
+  <li></li>
+</ul>
+<b>Computernetworks and Distributed Systems</b>
+<ul>
+  <li></li>
+</ul>
+</details>
+
+
+#### Statistics
+Short explanation.
+
+<details>
+<summary>Courses:</summary>
+<b>Software Engineering</b>
+<ul>
+  <li></li>
+</ul>
+<b>Data Science</b>
+<ul>
+  <li></li>
+</ul>
+<b>Computernetworks and Distributed Systems</b>
+<ul>
+  <li></li>
 </ul>
 </details>
