@@ -25,8 +25,20 @@ Git is a version-control system for tracking changes in computer files and coord
 ### Course Specific skills
 __________________
 
+#### State Automata
+Some courses require prior knowledge of automata theory. Since it is taught as a first year bachelor course, it should be relatively simple to learn the basics for master students.
+
+- <b>Software Engineering</b>
+  - /
+
+- <b>Data Science</b>
+  - /  
+
+- <b>Computernetworks and Distributed Systems</b>
+  - /
+
 #### Regular expressions (Regex)
-Short explanation.  
+Regular expressions are strongly related to automata theory. Knowing what they are and how to work with them might come in handy later, and specifically for the courses listed below.
 
  - <b>Software Engineering</b>
    - MoSIS - Modelling of Software Intensive Systems
@@ -39,7 +51,7 @@ Short explanation.
    - /  
 
 #### Statistics
-Short explanation.  
+A basic understanding of statistics is important for certain courses.
 
 - <b>Software Engineering</b>
   - /
@@ -51,31 +63,7 @@ Short explanation.
   - /  
 
 #### Linear Algebra
-Short explanation.  
-
-- <b>Software Engineering</b>
-  - /
-
-- <b>Data Science</b>
-  - /  
-
-- <b>Computernetworks and Distributed Systems</b>
-  - /  
-
-#### Matlab
-Short explanation.  
-
-- <b>Software Engineering</b>
-  - /
-
-- <b>Data Science</b>
-  - /  
-
-- <b>Computernetworks and Distributed Systems</b>
-  - /  
-
-#### Linux Terminal
-Short explanation.  
+Some of the more mathematical courses require prior knowledge of linear algebra (mostly vectors and matrices).  
 
 - <b>Software Engineering</b>
   - /
@@ -87,7 +75,7 @@ Short explanation.
   - /  
 
 #### Modular Arithmetic
-Short explanation.  
+Like linear algebra, some courses may require prior knowlegde of modular arithmetic.
 
 - <b>Software Engineering</b>
   - /
@@ -99,7 +87,45 @@ Short explanation.
   - /  
 
 #### Probability Theory
-Short explanation.  
+Similar to statistics, probability theory may come in handy for some courses.
+
+- <b>Software Engineering</b>
+  - /
+
+- <b>Data Science</b>
+  - /  
+
+- <b>Computernetworks and Distributed Systems</b>
+  - /  
+
+#### Calculus (Derivatives & Integrals)
+A basic understanding of calculus is required for the courses listed below.  
+
+- <b>Software Engineering</b>
+  - /
+
+- <b>Data Science</b>
+  - /  
+
+- <b>Computernetworks and Distributed Systems</b>
+  - /
+
+#### Matlab
+MATLAB (matrix laboratory) is a multi-paradigm numerical computing environment and proprietary programming language developed by MathWorks. MATLAB allows matrix manipulations, plotting of functions and data, implementation of algorithms, creation of user interfaces, and interfacing with programs written in other languages, including C, C++, C#, Java, Fortran and Python.
+
+In short it's a programming language designed specifically for mathematical use cases. Some courses may use it.  
+
+- <b>Software Engineering</b>
+  - /
+
+- <b>Data Science</b>
+  - /  
+
+- <b>Computernetworks and Distributed Systems</b>
+  - /  
+
+#### Linux Terminal
+Knowing your way around the Linux environment and more specifically, with the terminal is useful for your projects. The reference platform is Ubuntu 18.04 LTS, as installed on the lab PCs. Your projects should always work on this platform when relevant.
 
 - <b>Software Engineering</b>
   - /
@@ -111,19 +137,7 @@ Short explanation.
   - /  
 
 #### Software Architecture
-Short explanation.  
-
-- <b>Software Engineering</b>
-  - /
-
-- <b>Data Science</b>
-  - /  
-
-- <b>Computernetworks and Distributed Systems</b>
-  - /
-
-#### Calculus (Derivatives & Integrals)
-Short explanation.  
+Knowing about software architecture and programming patterns is useful for some courses.
 
 - <b>Software Engineering</b>
   - /
@@ -135,7 +149,7 @@ Short explanation.
   - /
 
 #### SQL
-Short explanation.  
+SQL or Structured Query Language is the de facto industry standard for database manipulation. Your will most likely need it at some point in your career, but it is also particularly useful for the courses listed below.
 
 - <b>Software Engineering</b>
   - /
@@ -147,19 +161,7 @@ Short explanation.
   - /
 
 #### ISO/OSI Stack
-Short explanation.  
-
-- <b>Software Engineering</b>
-  - /
-
-- <b>Data Science</b>
-  - /  
-
-- <b>Computernetworks and Distributed Systems</b>
-  - /
-
-#### State Automata
-Short explanation.  
+A basic understanding of computer networks and how certain protocols in the ISO/OSI stack is required for networking related courses.
 
 - <b>Software Engineering</b>
   - /
