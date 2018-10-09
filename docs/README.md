@@ -12,7 +12,7 @@ __________________
 During your master, you will have to complete various programming projects. In most courses you are allowed to use your preferred programming language, but it is advised to use Python, Java or C++ depending on the course. Using the advised language usually simplifies the project and enables for a more fluent collaboration. You should make sure you have a good understanding of object oriented programming.
 
 #### Python
-Python is a very popular language for prototyping and scripting. It has a minimal syntax and incoroprates both concepts from OOP and functional programming to make it an easy to learn and flexible language. It is used in most of the projects. The following interactive tutorial can help you get started: [www.learnpython.org](www.learnpython.org). It is especially good for students who already know OOP concepts.
+Python is a very popular language for prototyping and scripting. It has a minimal syntax and incoroprates both concepts from OOP and functional programming to make it an easy to learn and flexible language. It is used in most of the projects. The following interactive tutorial can help you get started: [www.learnpython.org](https://www.learnpython.org). It is especially good for students who already know OOP concepts.
 
 #### LaTeX
 LaTeX, which is pronounced «Lah-tech» or «Lay-tech», is a document preparation system for high-quality typesetting. It is most often used for medium-to-large technical or scientific documents but it can be used for almost any form of publishing.
