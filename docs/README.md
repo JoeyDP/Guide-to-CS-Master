@@ -29,13 +29,16 @@ __________________
 Some courses require prior knowledge of automata theory. Since it is taught as a first year bachelor course, it should be relatively simple to learn the basics for master students.
 
 - <b>Software Engineering</b>
-  - /
+  - MDE - Model Driven Engineering
+  - MoSIS - Modelling of Software Intensive Systems
+  - S&V - Specification and Verification
 
 - <b>Data Science</b>
   - /  
 
 - <b>Computernetworks and Distributed Systems</b>
-  - /
+  - IPM - Introduction to Performance Modelling
+  - APM - Advanced Performance Modelling
 
 #### Regular expressions (Regex)
 Regular expressions are strongly related to automata theory. Knowing what they are and how to work with them might come in handy later, and specifically for the courses listed below.
@@ -58,9 +61,12 @@ A basic understanding of statistics is important for certain courses.
 
 - <b>Data Science</b>
   - IR - Information Retrieval  
+  - BINF - Bioinformatics
 
 - <b>Computernetworks and Distributed Systems</b>
-  - /  
+  - MWN - Mobile and Wireless Networks
+  - IPM - Introduction to Performance Modelling
+  - APM - Advanced Performance Modelling
 
 #### Linear Algebra
 Some of the more mathematical courses require prior knowledge of linear algebra (mostly vectors and matrices).  
@@ -72,7 +78,8 @@ Some of the more mathematical courses require prior knowledge of linear algebra 
   - /  
 
 - <b>Computernetworks and Distributed Systems</b>
-  - /  
+  - IPM - Introduction to Performance Modelling
+  - APM - Advanced Performance Modelling
 
 #### Modular Arithmetic
 Like linear algebra, some courses may require prior knowlegde of modular arithmetic.
@@ -84,31 +91,35 @@ Like linear algebra, some courses may require prior knowlegde of modular arithme
   - /  
 
 - <b>Computernetworks and Distributed Systems</b>
-  - /  
+  - CNS - Computer and Network Security
 
 #### Probability Theory
 Similar to statistics, probability theory may come in handy for some courses.
 
 - <b>Software Engineering</b>
-  - /
+  - MoSIS - Modelling of Software Intensive Systems
 
 - <b>Data Science</b>
-  - /  
+  - DM - Data Mining
+  - IR - Information Retrieval
 
 - <b>Computernetworks and Distributed Systems</b>
-  - /  
+  - MWN - Mobile and Wireless Networks
+  - IPM - Introduction to Performance Modelling
+  - APM - Advanced Performance Modelling
 
 #### Calculus (Derivatives & Integrals)
 A basic understanding of calculus is required for the courses listed below.  
 
 - <b>Software Engineering</b>
-  - /
+  - MoSIS - Modelling of Software Intensive Systems
 
 - <b>Data Science</b>
   - /  
 
 - <b>Computernetworks and Distributed Systems</b>
-  - /
+  - IPM - Introduction to Performance Modelling
+  - APM - Advanced Performance Modelling
 
 #### Matlab
 MATLAB (matrix laboratory) is a multi-paradigm numerical computing environment and proprietary programming language developed by MathWorks. MATLAB allows matrix manipulations, plotting of functions and data, implementation of algorithms, creation of user interfaces, and interfacing with programs written in other languages, including C, C++, C#, Java, Fortran and Python.
@@ -122,7 +133,8 @@ In short it's a programming language designed specifically for mathematical use 
   - /  
 
 - <b>Computernetworks and Distributed Systems</b>
-  - /  
+  - APM - Advanced Performance Modelling
+
 
 #### Linux Terminal
 Knowing your way around the Linux environment and more specifically, with the terminal is useful for your projects. The reference platform is Ubuntu 18.04 LTS, as installed on the lab PCs. Your projects should always work on this platform when relevant.
@@ -134,13 +146,16 @@ Knowing your way around the Linux environment and more specifically, with the te
   - /  
 
 - <b>Computernetworks and Distributed Systems</b>
-  - /  
+  - ANL - Advanced Networks Lab
+  - SNL - Sensor Networks Lab
 
 #### Software Architecture
 Knowing about software architecture and programming patterns is useful for some courses.
 
 - <b>Software Engineering</b>
-  - /
+  - SRE - Software Reengineering
+  - STSE - Selected Topics Software Engineering
+  - PP - Programming Paradigms
 
 - <b>Data Science</b>
   - /  
@@ -155,10 +170,11 @@ SQL or Structured Query Language is the de facto industry standard for database 
   - /
 
 - <b>Data Science</b>
-  - /  
+  - DBS - Database Systems
+  - IR - Information Retrieval
 
 - <b>Computernetworks and Distributed Systems</b>
-  - /
+  - DC - Distributed Computing
 
 #### ISO/OSI Stack
 A basic understanding of computer networks and how certain protocols in the ISO/OSI stack is required for networking related courses.
@@ -170,4 +186,9 @@ A basic understanding of computer networks and how certain protocols in the ISO/
   - /  
 
 - <b>Computernetworks and Distributed Systems</b>
-  - /
+  - DC - Distributed Computing
+  - MWN - Mobile and Wireless Networks
+  - CNS - Computer and Network Security
+  - ANL - Advanced Networking Lab
+  - SNL - Sensor Networks Lab
+  - TNL - Topics in Networks and Distributed Systems
