@@ -22,6 +22,13 @@ In your master it can prove useful for writing reports on projects as well as fo
 #### Git
 Git is a version-control system for tracking changes in computer files and coordinating work on those files among multiple people. It will make working on a project with other students a lot easier.
 
+ - This tutorial will help you understand the basics of git.
+  - <https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud>
+ - You can also work with git through a GUI. We recommend gitkraken:
+  - <https://www.gitkraken.com/>
+
+
+
 ### Course Specific skills
 __________________
 
@@ -42,6 +49,13 @@ Some courses require prior knowledge of automata theory. Since it is taught as a
 
 #### Regular expressions (Regex)
 Regular expressions are strongly related to automata theory. Knowing what they are and how to work with them might come in handy later, and specifically for the courses listed below.
+
+They are often used for recognizing textual patterns in an efficient way. We would recommend the following two websites:
+ - <https://regexone.com/>
+  - This website hosts an interactive tutorial for learning the basics of regular expressions. The explanations are short, clear and to the point. Every section is concluded with a small exercise. You can probably follow this tutorial in about an hour and have mastered the basics of using regular expressions.
+ - <https://regex101.com/>
+  - You can use this website to test and verify your regular expressions. It provides nice visualizations, support for examples to test your regex and even has a quick reference with search function in case you don't remember the syntax for something.
+
 
  - <b>Software Engineering</b>
    - MoSIS - Modelling of Software Intensive Systems
